@@ -1,0 +1,29 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.boxes {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    align-content: center;
+    box-sizing: border-box;
+    margin: 0 5000px;
+
+}
+
+.box {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.header, .footer {
+    flex: 0;
+}
